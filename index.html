@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <title>logiform</title>
+    <style>
+      .fieldset {
+        background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.macrumors.com%2F2021%2F11%2F03%2Ffacebook-creator-subscription-links%2F&psig=AOvVaw2vd6nOIbclie6ZvvIcEuk7&ust=1726901262570000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCOhdf20IgDFQAAAAAdAAAAABAE)
+      }
+    </style>
+  </head>
+  <body>
+     <fieldset>
+      <legend><strong>Facebook Login page</strong></legend>
+      <form action="./fbmain.html">
+        <label for="uname">Username :</label>
+        <input
+          type="text"
+          placeholder="ex:sairam"
+          id="username"
+          name="username"
+          required
+        />
+        <br />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          placeholder="ex: Abcd123@" 
+          id="password"
+          name="password"
+          required
+        />
+        <br />
+        <input type="submit" value="Login" /><br><br />
+         <input type="submit" value="Forgot Password" formaction="./forgotpass.html">
+        <input type="submit" value="Create Account" formaction="./createaccount.html">
+      </form>
+    </fieldset>
+  </body>
+</html>
